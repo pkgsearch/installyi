@@ -1,0 +1,9 @@
+apt update
+apt upgrade
+apt install git
+apt install python3
+pip3 install colorama requests
+git clone https://github.com/anongroup-official/emailspam
+cd emailspam
+mv anonspam /data/data/com.termux/files/usr/bin/
+echo "Установка прошла успешно для запуска из любой директории пиши anonspam"
